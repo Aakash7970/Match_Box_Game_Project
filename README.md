@@ -15,7 +15,7 @@ Unlock all three to reveal the final 🎉 celebration!
 🚀 How to Play
 
 Download or clone this repo:
-git clone https://github.com/Aakash7970/Match_box_game_-project.git
+git clone https:https://github.com/Aakash7970/Match_Box_Game_Project.git
 
 Open index.html in your browser.
 
