@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #222;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #0ff;
+  }
+  
+  .puzzle {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid #444;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #success-message {
+    font-size: 1.5rem;
+    color: lime;
+    margin-top: 2rem;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  

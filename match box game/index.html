@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puzzle Box</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧩 Puzzle Box</h1>
+
+    <!-- Puzzle 1 -->
+    <div class="puzzle" id="puzzle1">
+      <h2>Puzzle 1: Click Buttons in Order (2 → 3 → 1)</h2>
+      <div class="buttons">
+        <button onclick="checkOrder(1)">1</button>
+        <button onclick="checkOrder(2)">2</button>
+        <button onclick="checkOrder(3)">3</button>
+      </div>
+      <p id="puzzle1-status"></p>
+    </div>
+
+    <!-- Puzzle 2 -->
+    <div class="puzzle" id="puzzle2">
+      <h2>Puzzle 2: What is 17+ (5 × 4)?</h2>
+      <input type="number" id="puzzle2-input" />
+      <button onclick="checkMath()">Submit</button>
+      <p id="puzzle2-status"></p>
+    </div>
+
+    <!-- Puzzle 3 -->
+     <div class="puzzle" id="puzzle3">
+        <h2>Puzzle 3: What is the name of the programer who made this game</h2>
+        <input type="text" id="puzzle3-input" />
+        <button onclick="checkPro()">Unlock</button>
+        <p id="puzzle3-status"></p>
+     </div>
+      <!-- Puzzle 4 -->
+    <div class="puzzle" id="puzzle4">
+        <h2>Puzzle 4: Enter the secret code (hint: magic)</h2>
+        <input type="text" id="puzzle4-input" />
+        <button onclick="checkCode()">Unlock</button>
+        <p id="puzzle4-status"></p>
+      </div>
+
+    <!-- Success Message -->
+    <div id="success-message" class="hidden">
+      🎉 You unlocked the Puzzle Box!
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
